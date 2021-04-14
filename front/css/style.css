@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  /* transform: rotate(-90deg); */
+ font-size: 4rem;
+ border-bottom: 1px solid #563003;
+ font-family: "Montserra",sans-serif;
+}
+.event{
+  width: 20%;
+  height: 20%;
+  background: beige;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.event img{
+  width: 100%
+}
+.groupevent{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+}
