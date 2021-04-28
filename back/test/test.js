@@ -26,5 +26,12 @@ describe("Tests API", function () {
       });
     });
   });
-
+  describe("Delete", function () {
+      it("L'appel fonctionne", function (done) {
+        api.delete("/events/" + events[0].id).then((res) => {
+          assert.equal(res.status, 200);
+          done();
+        });
+      });
+    });
 });
