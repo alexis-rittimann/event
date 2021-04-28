@@ -1,0 +1,2 @@
+1- aller sur page index = liste des evenement
+2- click sur le bouton delete = evenement supprimé -> peut etre en refresh la page

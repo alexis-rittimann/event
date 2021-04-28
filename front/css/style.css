@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 h1{
-  /* transform: rotate(-90deg); */
  font-size: 4rem;
  border-bottom: 1px solid #563003;
  font-family: "Montserra",sans-serif;
@@ -18,7 +17,16 @@ h1{
   align-items: center;
 }
 .event img{
-  width: 100%
+  width: 100%;
+  height: 210px
+}
+.event button{
+  width: 100%;
+  padding: 0.5em;
+  background: black;
+  color: white;
+  font-size: 1em;
+  margin-top: 2%;
 }
 #listeEvenements{
   display: flex;
